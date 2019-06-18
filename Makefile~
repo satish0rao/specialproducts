@@ -1,9 +1,0 @@
-
-specialproducts: specialproducts.h specialproducts.c driver.c
-	gcc driver.o specialproducts.o -o specialproducts
-
-specialproducts.o: specialproducts.c
-	gcc -c specialproducts.c
-
-driver.o: driver.c specialproducts.h
-	gcc -c driver.c

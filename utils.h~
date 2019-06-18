@@ -1,1 +1,0 @@
-int printArray(int * a, int n);
